@@ -1,0 +1,33 @@
+.copy_right_footer{
+    position: fixed;
+    color: skyblue;
+    text-align: center;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    font-size: 20px;
+    box-shadow: 8px 8px 15px gray;
+    background-color: gray;
+}
+.play_song{
+    width: 50px;
+    margin: 10px;
+    font-size: 50px;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+canvas{
+background-color: skyblue;
+border: 5px solid white;
+border-radius: 20px;
+box-shadow: 5px 5px 5px yellow;
+margin-top: 200px;
+margin: right 100px;
+}
+body{
+    background-size: cover;
+}
