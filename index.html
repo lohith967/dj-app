@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
 
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -18,18 +19,23 @@
 <center>
   	<h3 class="btn btn-warning heading">AI DJ WEB APP
 	    <br>
-	    <span class="note">NOTE - Get left hand wrist in frount of webcam to play saaho song. Get right land wrist in frount of webcamto play bahubali song</span>
+	    <span class="note">NOTE - Move your left-hand wrist up and down  dj. 
+        Move your right-hand wrist up and down for playing peaceful  music.</span>
   	</h3>
-    <br><br>
-    <button class="btn btn-info play-song" id="play_song" onclick="Play_song">Play song</button>
-    <br>
+   
+
+ <button class="btn btn-success play_button" id="play" onclick="play_sound()">song</button>
+
+ <button class="btn btn-success play_button" id="play" onclick="Play_sound()">song2</button>
+
+    
+	<br><br>
+  
 </center>
-
-
-<div class="copy_right_footer">
-    Developed by - Lohith sai
-  </div>
-
+<br><br>
+<button class="btn btn-danger play_button"onclick="Stop_song()">stop song</button>
+<br><br>
+<button class="btn btn-danger play_button"onclick="stop_song()">stop song 2</button>
 <script src="main.js"></script>
 </body>
 </html>

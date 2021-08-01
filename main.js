@@ -1,8 +1,22 @@
+song = "";
+song2 = "";
+
 function preload(){
+    song = loadSound("music.mp3");
+    song2 = loadSound("atmospheric-hip-hop-background-sample-voice-version-4949.mp3");
 }
+
 function setup(){
-    canvas = createCanvas(300, 300);
+    canvas = createCanvas(600,500);
     canvas.center();
-    video=createCapture(VIDEO);
+    
+    video = createCapture(VIDEO);
     video.hide();
 }
+function draw(){
+    image(video ,0 ,0 ,600 ,500);
+}
+
+
+
+
